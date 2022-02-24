@@ -15,7 +15,7 @@ jobs:
         
       - name: Configure AWS
         run: |
-          export AWS_ROLE_ARN=arn:aws:iam::1234567890:role/ExampleGithubOidcRole
+          export AWS_ROLE_ARN=arn:aws:iam::455810658723:oidc-provider/token.actions.githubusercontent.com
           export AWS_WEB_IDENTITY_TOKEN_FILE=/tmp/awscreds
           export AWS_DEFAULT_REGION=eu-west-2
 
